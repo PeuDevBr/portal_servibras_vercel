@@ -1,21 +1,22 @@
-import { CardListContaienr } from "./styles";
+import { CardListContaienr, CardListTable } from "./styles";
 
 export function CardList() {
   return (
     <CardListContaienr>
-      <div className="productContainer">
-        <div className="productContent">
-          <span>Brastemp/Consul</span>
-          <img src="" alt="" />
-          <h2>Placa Potência</h2>
-          <h2>W10446925</h2>
-
-          <div>
-            <button>Adicionar</button>
-            <button>Verificar</button>
-          </div>
-        </div>
-      </div>
+      <CardListTable>
+        <tbody>
+          <tr>
+            <td>W10446925</td>
+            <td>Placa Potência</td>
+            <td>Brastemp/Consul</td>
+          </tr>
+          <tr>
+            <td>W10849470</td>
+            <td>Bomda de Drenagem</td>
+            <td>Brastemp/Consul</td>
+          </tr>
+        </tbody>
+      </CardListTable>
     </CardListContaienr>
   )
 }
