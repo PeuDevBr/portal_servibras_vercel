@@ -15,7 +15,7 @@ interface ProductProps {
 }
 
 export function CardList() {
-  const [productList, setProductList] = useState<ProductProps[]>(initialList)
+  const [productList] = useState<ProductProps[]>(initialList)
 
   return (
     <CardListContaienr>
