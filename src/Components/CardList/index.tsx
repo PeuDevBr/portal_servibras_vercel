@@ -1,20 +1,35 @@
-import { CardListContaienr, CardListTable } from "./styles";
+import { useState } from "react"
+import initialList from "../../../productsList.json"
+import { CardListContaienr, CardListTable } from "./styles"
+
+interface ProductProps {
+  name: string
+  code: string
+  brand: string
+  subject: string
+  model: string
+  version?: string
+  pnc?: string
+  quantaty: number
+  title: string
+}
 
 export function CardList() {
+  const [productList, setProductList] = useState<ProductProps[]>(initialList)
+
   return (
     <CardListContaienr>
       <CardListTable>
         <tbody>
-          <tr>
-            <td>W10446925</td>
-            <td>Placa Potência</td>
-            <td>Brastemp/Consul</td>
-          </tr>
-          <tr>
-            <td>W10849470</td>
-            <td>Bomda de Drenagem</td>
-            <td>Brastemp/Consul</td>
-          </tr>
+          {productList.map((product) => {
+            return (
+              <tr>
+                <td>{product.code}</td>
+                <td>{product.name}</td>
+                <td>{product.brand}</td>
+              </tr>
+            )
+          })}
         </tbody>
       </CardListTable>
     </CardListContaienr>

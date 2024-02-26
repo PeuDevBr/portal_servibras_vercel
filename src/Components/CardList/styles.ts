@@ -9,6 +9,8 @@ export const CardListContaienr = styled.main`
 
 export const CardListTable = styled.table`
   width: 100%;
+  font-size: 1.2rem;
+  font-weight: 700;
   border-collapse: separate;
   border-spacing: 0 0.5rem;
 
