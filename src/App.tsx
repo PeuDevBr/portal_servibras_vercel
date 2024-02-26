@@ -6,7 +6,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <Catalog/>
-
+      
       <GlobalStyle />
     </ThemeProvider>
   )

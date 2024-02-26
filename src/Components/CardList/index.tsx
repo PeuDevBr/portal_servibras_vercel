@@ -1,27 +1,11 @@
-import { useState } from "react"
-import initialList from "../../../productsList.json"
 import { CardListContaienr, CardListTable } from "./styles"
 
-interface ProductProps {
-  name: string
-  code: string
-  brand: string
-  subject: string
-  model: string
-  version?: string
-  pnc?: string
-  quantaty: number
-  title: string
-}
-
-export function CardList() {
-  const [productList] = useState<ProductProps[]>(initialList)
-
+export function CardList({ productList }: any) {
   return (
     <CardListContaienr>
       <CardListTable>
         <tbody>
-          {productList.map((product) => {
+          {productList.map((product: any) => {
             return (
               <tr>
                 <td>{product.code}</td>

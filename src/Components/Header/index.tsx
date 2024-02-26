@@ -1,3 +1,5 @@
+import list from "../../../products.json"
+
 import {
   FormContainer,
   HeaderContainer,
@@ -6,7 +8,25 @@ import {
 } from "./styles"
 import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
 
-export function Header() {
+export function Header({ setProductList }: any) {
+  const productsSearch = (
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) => {
+    event.preventDefault()
+    const searchTerm = (
+      document.querySelector('input[type="text"]') as HTMLInputElement
+    ).value.toLowerCase()
+    const filteredResults = list.filter((item) => {
+      // Aqui você pode ajustar as condições de acordo com sua necessidade
+      return Object.values(item).some(
+        (val) =>
+          typeof val === "string" && val.toLowerCase().includes(searchTerm)
+      )
+    })
+    setProductList(filteredResults)
+    console.log(filteredResults)
+  }
+
   return (
     <HeaderContainer>
       <HeaderContent>
@@ -16,7 +36,7 @@ export function Header() {
 
         <FormContainer autoComplete="off">
           <input type="text" placeholder="Pesquisar" />
-          <button type="submit">
+          <button type="submit" onClick={productsSearch}>
             <MagnifyingGlass size={22} color="#FFFFFF" />
           </button>
         </FormContainer>
