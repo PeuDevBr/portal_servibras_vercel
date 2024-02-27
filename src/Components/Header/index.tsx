@@ -15,7 +15,9 @@ export function Header({ setProductList }: any) {
     event.preventDefault()
     const searchTerm = (
       document.querySelector('input[type="text"]') as HTMLInputElement
-    ).value.toLowerCase()
+    ).value
+      .toLowerCase()
+      .trim()
     const filteredResults = list.filter((item) => {
       // Aqui você pode ajustar as condições de acordo com sua necessidade
       return Object.values(item).some(

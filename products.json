@@ -642,6 +642,16 @@
     "title": "placa potencia, placa interface, placa potência"
   },
   {
+    "name": "Kit Potência/Interface BWK11 (Similar)",
+    "code": "7220206",
+    "brand": "Alado",
+    "subject": "multimarcas, similar, consul, brastemp, Máquina de Lavar, Lavadora, Maquina de lavar",
+    "model": "BWK11AB",
+    "version": "",
+    "quantaty": 0,
+    "title": "placa potencia, placa interface, placa potência"
+  },
+  {
     "name": "Kit Placa BWL09 (Similar)",
     "code": "7220064",
     "brand": "Alado",
@@ -1926,7 +1936,7 @@
   },
   {
     "name": "Mangueira de Entrada",
-    "code": "W10554242",
+    "code": "W11135728",
     "brand": "Brastemp/Consul",
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
     "model": "BWB08AB, BWB09AB, BWB11ABANA, BWB11ABBNA, BWB22A, BWB22B, BWC06A, BWC07A, BWC08A, BWC09AB, BWC10A, BWC10BB, BWC11AB, BWD15A9ANA, BWD15A9BNA, BWD15ABANA, BWD15ABBNA, BWF08A, BWF08B, BWF09A, BWF22A, BWF24A, BWG10A, BWG11ABANA, BWG11ABBNA, BWG11ARANA, BWG11ARBNA, BWG12AB, BWH08B, BWH09A, BWH09BB, BWH11AB, BWH12ABANA, BWH12ABBNA, BWH15ABANA, BWH15ABBNA, BWJ09ABANA, BWJ09ABBNA, BWJ11ABANA, BWJ11ABBNA, BWK11ABANA, BWK11ABBNA, BWK12A9ANA, BWK12A9BNA, BWK12ABANA, BWK12ABBNA, BWK14ABANA, BWK14ABBNA, BWK15ABANA, BWK15ABBNA, BWL07A, BWL09A, BWL09ABANA, BWL09BBANA, BWL09BBBNA, BWL11ABANA, BWL11ABBNA, BWL11AR, BWM06A, BWM08AB, BWN15AKANA, BWN15AKBNA, BWN15ATANA, BWN15ATBNA, BWP11A9, BWQ06A, BWQ07A, BWQ12ABANA, BWQ12ABBNA, BWQ22A, BWQ22B, BWQ22C, BWQ22D, BWQ24A, BWQ24B, BWR12A9ANA, BWR12A9BNA, BWR12ABANA, BWR12ABBNA, BWR22A, BWR22B, BWR22C, BWS09ABANA, BWS09ABBNA, BWS11ABANA, BWS11ABBNA, BWS15ABANA, BWS15ABBNA, BWT08A, BWT08C, BWT09AB, BWT09BB, BWT12ABANA, BWT12ABBNA, BWU11AB, BWU11AE, BWX09A, BWX09B, CWB08ABANA, CWB08ABBNA, CWB09ABANA, CWB09ABBNA, CWC08ABANA, CWC08ABBNA, CWC10AB, CWC22A, CWC22B, CWC24A, CWE06A, CWE06B, CWE08ABANA, CWE08ABBNA, CWE09AB, CWE10ABANA, CWE10ABBNA, CWE11ABANA, CWE11ABBNA, CWE13ABANA, CWE13ABBNA, CWE15ABANA, CWE15ABBNA, CWG11AB, CWG12ABANA, CWG12ABBNA, CWH11ABANA, CWH11ABBNA, CWH11BBANA, CWH11BBBNA, CWH12ABANA, CWH12ABBNA, CWH14ABANA, CWH14ABBNA, CWI06B, CWI07A, CWI21ABANA, CWI21ABBNA, CWK11AB, CWK12ABANA, CWK12ABBNA, CWL08A, CWL08B, CWL08C, CWL10A, CWL10B, CWL16ABANA, CWL16ABBNA, CWL75A, CWS11ABANA, CWS11ABBNA, CWS12ABANA, CWS12ABBNA, CWH12BBBNA, CWB09BBBNA, BWK16ABBNA, CWH15ABBNA",
@@ -4853,9 +4863,18 @@
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
     "model": "LT12f",
     "version": "",
-
     "quantaty": 0,
     "title": "placa potencia, placa eletronica, placa electrolux, 70201326"
+  },
+  {
+    "name": "Placa Eletrônica LT12F (Similar)",
+    "code": "7220093",
+    "brand": "Electrolux",
+    "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
+    "model": "LT12f",
+    "version": "",
+    "quantaty": 0,
+    "title": "placa potencia, placa eletronica, placa electrolux, 70201326, A99035153"
   },
   {
     "name": "Placa Eletrônica LT09E",
@@ -5814,6 +5833,16 @@
     "brand": "Electrolux",
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
     "model": "LAC13, LES13, LTD15, LT13B, LAC09, LPE16, LAC16, LES15, LTD09, LTD11, LT12F, LT15F, LT10B, LT12B, LTD13, LAC11, LAC12",
+    "version": "",
+    "quantaty": 0,
+    "title": "placa display"
+  },
+  {
+    "name": "Placa Interface Sueli Mid",
+    "code": "A20246701",
+    "brand": "Electrolux",
+    "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
+    "model": "LEC14, LEC17",
     "version": "",
     "quantaty": 0,
     "title": "placa display"
