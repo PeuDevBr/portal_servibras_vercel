@@ -15,7 +15,7 @@ export const CardListTable = styled.table`
   border-spacing: 0 0.5rem;
 
   td {
-    padding: 1.25rem 2rem;
+    padding: 1rem 2rem;
     background-color: ${(props) => props.theme["gray-700"]};
 
     &:first-child {

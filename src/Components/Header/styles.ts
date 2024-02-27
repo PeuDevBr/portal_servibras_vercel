@@ -10,8 +10,9 @@ export const HeaderContainer = styled.div`
   top: 0;
   color: ${(props) => props.theme.white};
   margin-bottom: 1rem;
+  background-color: ${(props) => props.theme["gray-900"]};
 
-  border-bottom: 2px solid ${(props) => props.theme["gray-800"]};
+  border-bottom: 1px solid ${(props) => props.theme["gray-500"]};
 `
 
 export const HeaderContent = styled.div`

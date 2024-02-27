@@ -24,7 +24,6 @@ export function Header({ setProductList }: any) {
       )
     })
     setProductList(filteredResults)
-    console.log(filteredResults)
   }
 
   return (
