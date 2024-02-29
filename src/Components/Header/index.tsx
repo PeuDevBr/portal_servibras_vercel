@@ -1,6 +1,7 @@
 import list from "../../../products.json"
 
 import {
+  CartContainer,
   FormContainer,
   HeaderContainer,
   HeaderContent,
@@ -9,7 +10,7 @@ import {
 import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
 
 export function Header({ setProductList }: any) {
-  const productsSearch = (
+  const handleSearch = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
     event.preventDefault()
@@ -37,16 +38,16 @@ export function Header({ setProductList }: any) {
 
         <FormContainer autoComplete="off">
           <input type="text" placeholder="Pesquisar" />
-          <button type="submit" onClick={productsSearch}>
+          <button type="submit" onClick={handleSearch}>
             <MagnifyingGlass size={22} color="#FFFFFF" />
           </button>
         </FormContainer>
 
-        <div>
+        <CartContainer>
           <a href="">
             <ShoppingCart size={32} color="#ffffff" weight="fill" />
           </a>
-        </div>
+        </CartContainer>
       </HeaderContent>
     </HeaderContainer>
   )

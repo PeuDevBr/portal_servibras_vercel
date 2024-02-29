@@ -9,7 +9,7 @@ export function CardList({ productList }: any) {
             return (
               <tr>
                 <td>{product.code}</td>
-                <td>{product.name}</td>
+                <td>{product.name.toUpperCase()}</td>
                 <td>{product.brand}</td>
               </tr>
             )

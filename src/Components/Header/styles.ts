@@ -6,6 +6,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 0.5rem;
   position: sticky;
   top: 0;
   color: ${(props) => props.theme.white};
@@ -23,11 +24,16 @@ export const HeaderContent = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-left: 1.5rem;
+
+  @media (max-width: 768px) {
+    max-width: 730px;
+  }
 `
 
 export const LogoContainer = styled.div`
   font-size: 2.5rem;
   font-weight: 700;
+  display: flex;
 `
 
 export const FormContainer = styled.form`
@@ -66,4 +72,14 @@ export const FormContainer = styled.form`
 
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    input {
+      width: 25rem;
+    }
+  }
+`
+
+export const CartContainer = styled.div`
+  padding-top: 8px;
 `
