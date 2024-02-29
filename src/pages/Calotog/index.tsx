@@ -1,8 +1,8 @@
 import { useState } from "react"
 /* import { createContext, useContext } from "react" */
 import initialList from "../../../productsList.json"
-import { CardList } from "../../Components/CardList"
-import { Header } from "../../Components/Header"
+import { CardList } from "../../Components/productList"
+import { Header } from "../../Components/header"
 
 export interface ProductProps {
   name: string

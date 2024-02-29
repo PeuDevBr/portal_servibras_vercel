@@ -5,8 +5,8 @@ import { Catalog } from "./pages/Calotog"
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Catalog/>
-      
+      <Catalog />
+
       <GlobalStyle />
     </ThemeProvider>
   )
