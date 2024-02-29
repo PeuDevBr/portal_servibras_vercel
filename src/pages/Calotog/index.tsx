@@ -2,7 +2,7 @@ import { useState } from "react"
 /* import { createContext, useContext } from "react" */
 import initialList from "../../../productsList.json"
 import { CardList } from "../../Components/productList"
-import { Header } from "../../Components/header"
+import { Header } from "../../Components/Header"
 
 export interface ProductProps {
   name: string
