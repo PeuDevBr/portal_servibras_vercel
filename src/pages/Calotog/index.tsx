@@ -23,9 +23,13 @@ export interface ProductProps {
 export function Catalog() {
   /* const { productsList } = useContext(ProcuctListContext) */
   const [productList, setProductList] = useState<ProductProps[]>(initialList)
+
+  function updateProductsList(newList: any) {
+    setProductList(newList)
+  }
   return (
     <>
-      <Header setProductList={setProductList} />
+      <Header onUpdateProductList={updateProductsList} />
       <CardList productList={productList} />
     </>
   )

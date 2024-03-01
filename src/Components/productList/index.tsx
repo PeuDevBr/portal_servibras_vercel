@@ -7,7 +7,7 @@ export function CardList({ productList }: any) {
         <tbody>
           {productList.map((product: any) => {
             return (
-              <tr>
+              <tr key={product.code}>
                 <td>{product.code}</td>
                 <td>{product.name.toUpperCase()}</td>
                 <td>{product.brand}</td>
