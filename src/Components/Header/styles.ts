@@ -25,7 +25,7 @@ export const HeaderContent = styled.div`
   align-items: center;
   margin-left: 1.5rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     max-width: 730px;
   }
 `
@@ -73,7 +73,7 @@ export const FormContainer = styled.form`
     cursor: pointer;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     input {
       width: 25rem;
     }

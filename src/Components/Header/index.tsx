@@ -7,6 +7,7 @@ import {
   HeaderContent,
   LogoContainer,
 } from "./styles"
+
 import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
 
 export function Header({ onUpdateProductList }: any) {
@@ -20,9 +21,9 @@ export function Header({ onUpdateProductList }: any) {
       .toLowerCase()
       .trim()
 
-    const filteredResults = list.filter((item) => {
+    const filteredResults = list.filter((product) => {
       // Aqui você pode ajustar as condições de acordo com sua necessidade
-      return Object.values(item).some(
+      return Object.values(product).some(
         (val) =>
           typeof val === "string" && val.toLowerCase().includes(searchText)
       )
