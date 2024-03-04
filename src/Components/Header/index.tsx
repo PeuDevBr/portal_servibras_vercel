@@ -1,4 +1,5 @@
 import list from "../../../products.json"
+import { useForm } from "react-hook-form"
 
 import {
   CartContainer,
@@ -9,26 +10,24 @@ import {
 } from "./styles"
 
 import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
+import { useContext } from "react"
+import { ListContext } from "../../context/ListContext"
 
-export function Header({ onUpdateProductList }: any) {
-  const handleSearch = (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
-  ) => {
-    event.preventDefault()
-    const searchText = (
-      document.querySelector('input[id="searchText"]') as HTMLInputElement
-    ).value
-      .toLowerCase()
-      .trim()
+export function Header() {
+  const { register, handleSubmit } = useForm()
+  const { updateProductsList } = useContext(ListContext)
 
-    const filteredResults = list.filter((product) => {
+   function handleCreateNewList(data: any) {
+    const searchText = data.searchText.toLowerCase().trim() 
+
+    const filteredList = list.filter((product) => {
       // Aqui você pode ajustar as condições de acordo com sua necessidade
       return Object.values(product).some(
         (val) =>
           typeof val === "string" && val.toLowerCase().includes(searchText)
       )
     })
-    onUpdateProductList(filteredResults)
+    updateProductsList(filteredList)
   }
 
   return (
@@ -38,14 +37,18 @@ export function Header({ onUpdateProductList }: any) {
           <span>Servibras</span>
         </LogoContainer>
 
-        <FormContainer autoComplete="off">
+        <FormContainer
+          autoComplete="off"
+          onSubmit={handleSubmit(handleCreateNewList)}
+        >
           <input
             id="searchText"
             type="text"
             title="searchInput"
             placeholder="Pesquisar"
+            {...register("searchText")}
           />
-          <button type="submit" title="searchButton" onClick={handleSearch}>
+          <button type="submit" title="searchButton">
             <MagnifyingGlass size={22} color="#FFFFFF" />
           </button>
         </FormContainer>

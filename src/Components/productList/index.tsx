@@ -1,6 +1,10 @@
+import { useContext } from "react"
 import { CardListContaienr, CardListTable } from "./styles"
+import { ListContext } from "../../context/ListContext"
 
-export function CardList({ productList }: any) {
+export function CardList() {
+  const { productList } = useContext(ListContext)
+  
   return (
     <CardListContaienr>
       <CardListTable>
