@@ -1,5 +1,9 @@
 import list from "../../../products.json"
 import { useForm } from "react-hook-form"
+import { NavLink } from "react-router-dom"
+
+import { useContext } from "react"
+import { ListContext } from "../../context/ListContext"
 
 import {
   CartContainer,
@@ -10,15 +14,13 @@ import {
 } from "./styles"
 
 import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
-import { useContext } from "react"
-import { ListContext } from "../../context/ListContext"
 
 export function Header() {
   const { register, handleSubmit } = useForm()
   const { updateProductsList } = useContext(ListContext)
 
-   function handleCreateNewList(data: any) {
-    const searchText = data.searchText.toLowerCase().trim() 
+  function handleCreateNewList(data: any) {
+    const searchText = data.textInput.toLowerCase().trim()
 
     const filteredList = list.filter((product) => {
       // Aqui você pode ajustar as condições de acordo com sua necessidade
@@ -42,21 +44,20 @@ export function Header() {
           onSubmit={handleSubmit(handleCreateNewList)}
         >
           <input
-            id="searchText"
+            id="searchInput"
             type="text"
-            title="searchInput"
             placeholder="Pesquisar"
-            {...register("searchText")}
+            {...register("textInput")}
           />
-          <button type="submit" title="searchButton">
+          <button type="submit">
             <MagnifyingGlass size={22} color="#FFFFFF" />
           </button>
         </FormContainer>
 
         <CartContainer>
-          <a href="#" title="cartLink">
+          <NavLink to="/product">
             <ShoppingCart size={32} color="#ffffff" weight="fill" />
-          </a>
+          </NavLink>
         </CartContainer>
       </HeaderContent>
     </HeaderContainer>

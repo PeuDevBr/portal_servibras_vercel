@@ -9,8 +9,8 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
-      <ListContextProvider>
-        <Router />
+        <ListContextProvider>
+          <Router />
         </ListContextProvider>
       </BrowserRouter>
 
