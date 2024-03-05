@@ -66,7 +66,7 @@ export function Header() {
         </FormContainer>
 
         <CartContainer>
-          <NavLink to="/product">
+          <NavLink to="#">
             <ShoppingCart size={32} color="#ffffff" weight="fill" />
           </NavLink>
         </CartContainer>

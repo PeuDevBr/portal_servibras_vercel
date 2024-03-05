@@ -3448,7 +3448,7 @@
     "code": "W10896284",
     "brand": "Brastemp/Consul",
     "subject": "Refrigerador, geladeira,",
-    "model": "BRM38EB, BRM39EBANA, BRM39EBBNA, BRM39EKANA, BRM39EKBNA, BRM39ERANA, BRM39ERBNA, BRM39ZBANA, BRM39ZBBNA, BRM42EBANA, BRM42EBBNA, BRM42EKANA, BRM42EKBNA, BRT38AE, BRT38AV, BRT38AY, CRM33EB, CRM33ER, CRM34GB, CRM37EB, ",
+    "model": ["BRM38EB, BRM39EBANA, BRM39EBBNA, BRM39EKANA, BRM39EKBNA, BRM39ERANA, BRM39ERBNA, BRM39ZBANA, BRM39ZBBNA, BRM42EBANA, BRM42EBBNA, BRM42EKANA, BRM42EKBNA, BRT38AE, BRT38AV, BRT38AY, CRM33EB, CRM33ER, CRM34GB, CRM37EB, "],
     "version": "",
     "quantaty": 0,
     "title": "isopor geladeira, isopor congelador, isopor evaporador, capa geladeira, capa evaporador, capa traseira"
