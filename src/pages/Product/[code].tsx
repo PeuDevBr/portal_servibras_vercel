@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { ListContext } from "../../context/ListContext"
+import { ListContext, ProductProps } from "../../context/ListContext"
 import { useParams } from "react-router-dom"
 
 export function Product() {
@@ -7,7 +7,9 @@ export function Product() {
 
   const { code } = useParams()
 
-  const product = productList.find((product: any) => product.code === code)
+  const product = productList.find(
+    (product: ProductProps) => product.code === code
+  )
 
   return (
     <div>

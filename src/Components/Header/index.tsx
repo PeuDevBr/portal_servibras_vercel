@@ -13,7 +13,7 @@ import {
   LogoContainer,
 } from "./styles"
 
-import { MagnifyingGlass, ShoppingCart} from "phosphor-react"
+import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
 
 interface NewListFormData {
   textInput: string
@@ -45,7 +45,9 @@ export function Header() {
     <HeaderContainer>
       <HeaderContent>
         <LogoContainer>
-          <span>Servibras</span>
+          <NavLink to="/" className="linkToHome">
+            <span>Servibras</span>
+          </NavLink>
         </LogoContainer>
 
         <FormContainer

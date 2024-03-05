@@ -34,6 +34,11 @@ export const LogoContainer = styled.div`
   font-size: 2.5rem;
   font-weight: 700;
   display: flex;
+
+  .linkToHome {
+    text-decoration: none;
+    color: ${(props) => props.theme.white};
+  }
 `
 
 export const FormContainer = styled.form`
