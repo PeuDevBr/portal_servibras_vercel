@@ -2,8 +2,6 @@ import { ReactNode, createContext, useState } from "react"
 
 import initialList from "../../productsList.json"
 
-export const ListContext = createContext({} as any)
-
 interface ListContextProviderProps {
   children: ReactNode
 }
@@ -19,6 +17,8 @@ export interface ProductProps {
   quantaty: number
   title: string
 }
+
+export const ListContext = createContext({} as any)
 
 export function ListContextProvider({ children }: ListContextProviderProps) {
   const [productList, setProductList] = useState<ProductProps[]>(initialList)

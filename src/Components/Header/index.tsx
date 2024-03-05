@@ -13,20 +13,29 @@ import {
   LogoContainer,
 } from "./styles"
 
-import { MagnifyingGlass, ShoppingCart } from "phosphor-react"
+import { MagnifyingGlass, ShoppingCart} from "phosphor-react"
+
+interface NewListFormData {
+  textInput: string
+}
 
 export function Header() {
-  const { register, handleSubmit } = useForm()
+  const { register, handleSubmit } = useForm<NewListFormData>({
+    defaultValues: {
+      textInput: "",
+    },
+  })
   const { updateProductsList } = useContext(ListContext)
 
-  function handleCreateNewList(data: any) {
+  function handleCreateNewList(data: NewListFormData) {
     const searchText = data.textInput.toLowerCase().trim()
 
     const filteredList = list.filter((product) => {
       // Aqui você pode ajustar as condições de acordo com sua necessidade
       return Object.values(product).some(
-        (val) =>
-          typeof val === "string" && val.toLowerCase().includes(searchText)
+        (proprietyValue) =>
+          typeof proprietyValue === "string" &&
+          proprietyValue.toLowerCase().includes(searchText)
       )
     })
     updateProductsList(filteredList)
