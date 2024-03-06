@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
 export const ProductContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-  gap: 0.8rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
 
   .description {
     display: flex;
@@ -13,7 +13,7 @@ export const ProductContainer = styled.div`
   }
 
   section {
-    width: 600px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,7 +77,7 @@ export const ProductContainer = styled.div`
     align-items: center;
     justify-content: center;
 
-    border: 1px solid ${(props) => props.theme["gray-300"]};
+    background-color: ${(props) => props.theme["gray-100"]};
     border-radius: 0.5rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   }

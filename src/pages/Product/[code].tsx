@@ -29,7 +29,7 @@ export function Product() {
       <div className="ImageContainer">
         {imageLoadError[product.code] ? (
           <img
-            src="/not_found.png" // Caminho para a imagem de 404
+            src="/image/not_found.png" // Caminho para a imagem de 404
             alt="Imagem não encontrada"
             width={400}
             height={400}
@@ -37,7 +37,7 @@ export function Product() {
           />
         ) : (
           <img
-            src={`/${product.code}.png`}
+            src={`/image/${product.code}.png`}
             alt={product.name}
             onError={() => handleImageError(product.code)}
             width={400}
