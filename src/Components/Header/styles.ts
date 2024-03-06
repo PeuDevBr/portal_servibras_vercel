@@ -34,6 +34,10 @@ export const LogoContainer = styled.div`
   font-size: 2.5rem;
   font-weight: 700;
   display: flex;
+  justify-content: end;
+  min-width: 14rem;
+  gap: 1rem;
+
 
   .linkToHome {
     text-decoration: none;
@@ -80,7 +84,7 @@ export const FormContainer = styled.form`
 
   @media (max-width: 800px) {
     input {
-      width: 25rem;
+      width: 23rem;
     }
   }
 `
