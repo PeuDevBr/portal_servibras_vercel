@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ProductContainer = styled.div`
-  padding: 1rem;
+  padding: 3rem 5rem;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem;
@@ -77,7 +77,7 @@ export const ProductContainer = styled.div`
     align-items: center;
     justify-content: center;
 
-    background-color: ${(props) => props.theme["gray-100"]};
+    background-color: ${(props) => props.theme.white};
     border-radius: 0.5rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   }

@@ -17,7 +17,7 @@ export function CardList() {
               <tr key={product.code}>
                 <td>{product.code}</td>
                 <td>{product.name.toUpperCase()}</td>
-                <td>{product.brand}</td>
+                <td className="brand">{product.brand}</td>
                 <td>
                   <NavLink to={`/product/${product.code}`}>
                     <Camera size={26} color="#fdfcfc" />

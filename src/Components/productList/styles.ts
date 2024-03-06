@@ -28,4 +28,12 @@ export const CardListTable = styled.table`
       border-bottom-right-radius: 6px;
     }
   }
+
+  .brand {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1rem;
+  }
 `

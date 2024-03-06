@@ -30,8 +30,6 @@ export function Header() {
   const { updateProductsList } = useContext(ListContext)
   const location = useLocation()
 
-  console.log(location.pathname)
-
   function handleCreateNewList(data: NewListFormData) {
     const searchText = data.textInput.toLowerCase().trim()
 

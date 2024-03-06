@@ -1844,13 +1844,13 @@
   },
   {
     "name": "Parafuso da Cunha",
-    "code": "18125700 ",
+    "code": "18125700",
     "brand": "Ciser",
     "subject": "máquina de lavar, maquina de lavar, lavadora",
     "model": "CWH12ABANA, CWH12ABBS1, CWH12ABBNA, CWH12ABAS1, CWH12ABAS2, CWH12ABBS2, CWH12ABAS3, BWL11AR, BWX09B, BWH09BB, BWT09BB, CWL16ABAS1, CWL16ABBS2, CWK17ABANA, CWK17ABBNA, CWL16ABAS2, CWL16ABBNA, CWK17ABAS2, CWL16ABANA, CWC22A, CWC22B, BWF22A, BWQ24A, BWQ22A, BWQ22B, BWR22C, BLL22EDB, CWH14ABAS1, CWH14ABBS1, CWH14ABBS2, CWS11ABANA, CWS11ABBNA, CWS12ABANA, CWS12ABBNA, CWH14ABANA, CWH14ABBNA, CWH14ABAS2, CWL08C, CWL10A, BWC06A, BWF09A, BWL07A, BWL09A, BWL09ABANA, XWH08A, CWC24A, CWE06A, CWE06B, CWL08A, CWL08B, BWB22A, BWB22B, BWC10BB, BWF08A, BWF08B, BWF24A, BWH08B, BWH09A, BWM06A, BWQ06A, BWQ07A, BWQ22C, BWQ22D, BWQ24B, BWT08A, BWT08C, BWX09A, BWM08AB, BWT09AB, CWL10B, CWL75A, BWC07A, BWC10A, BWG10A, BLL22MGB, BLL22MGD, BWR22A, BWR22B, CWH12BBAS1, CWH12BBBNA, CWH12BBAS2, CWH12BBBS1, CWH12BBANA, CWH12BBBS2, CWH12BBAS3, CWH15ABBS1, CWH15ABBNA, CWH15ABAS1, CWH15ABANA, CWH15ABAS2, CWH15ABBS3, BWK11ABANA, BWK11ABBNA, CWE09AB, CWB08ABANA, CWB08ABBNA, CWB09ABAS3, CWB09ABBNA, CWC08ABANA, CWC08ABBNA, CWE08ABANA, CWE08ABBNA, CWH11ABANA, CWH11ABBNA, CWH11BBAS1, CWH11BBBNA, CWB09ABANA, CWH11BBANA, CWB09ABAS2, CWB09ABAS1, CWB09ABBS2, CWH11ABAS3, CWH11BBBS1, CWB09ABBS1, CWH11BBBS2, BWG12AB, BWH11AB, BWQ12ABANA, BWQ12ABBNA, BWT12ABANA, BWT12ABBNA, BWG11ABANA, BWG11ABBNA, BWG11ARANA, BWG11ARBNA, BWH12ABANA, BWH12ABBNA, BWP11A9, BWU11AB, BWU11AEANA, BWU11AEBNA, BWK12B9ANA, BWK12B9BNA, BWK12A9ANA, BWK12A9AS2, BWK12A9AS1, BWK12A9BS1, BWK12ABBS1, BWK12A9BNA, BWK12ABAS1, BWK12ABAS2, BWK12ABBNA, BWK14ABANA, BWK12ABBS2, BWK14ABAS1, BWK14ABAS2, BWK14ABBS1, BWR12A9BNA, BWR12A9ANA, BWR12ABANA, BWR12ABAS1, BWR12ABBNA, BWR12ABBS1, BWK12B9BS1, BWK14ABBS2, BWK12A9BS2, BWK12B9AS2, BWR12ABAS3, BWR12ABAS2, BWK14ABBNA, BWK12ABANA, CWG11AB, BWB08AB, BWJ09ABBNA, BWJ11ABANA, BWJ11ABBNA, BWS09ABANA, BWS09ABBNA, BWS11ABANA, BWS11ABBNA, BWL11ABANA, BWL11ABBNA, BWJ09ABANA, CWE10ABANA, CWE10ABBNA, CWE11ABANA, CWE11ABBNA, CWG12ABANA, CWG12ABBNA, BWB09AB, CWB09BBANA, CWB09BBAS1, CWB09BBBNA, CWB09BBAS3, CWB09BBBS2, CWB09BBAS2, BWK17ABANA, BWK17ABBNA, BWK17ABAS1, CWC10AB, CWK11AB, BWL09BBANA, BWL09BBBNA, BWC08A, BWC11AB, BWB11ABANA, BWB11ABBNA, BWC09AB, BWK13ABBNA ",
     "version": "",
     "quantaty": 0,
-    "title": "parafuso da cunha do cesto, parafuso da cunha brastemp, parafuso da cunha consul, revisão, revisao"
+    "title": "parafuso da cunha do cesto, parafuso da cunha brastemp, parafuso da cunha consul, revisão, revisao, parafuso cunha"
   },
   {
     "name": "Complemento Tubo Centifugação",
@@ -3448,7 +3448,9 @@
     "code": "W10896284",
     "brand": "Brastemp/Consul",
     "subject": "Refrigerador, geladeira,",
-    "model": ["BRM38EB, BRM39EBANA, BRM39EBBNA, BRM39EKANA, BRM39EKBNA, BRM39ERANA, BRM39ERBNA, BRM39ZBANA, BRM39ZBBNA, BRM42EBANA, BRM42EBBNA, BRM42EKANA, BRM42EKBNA, BRT38AE, BRT38AV, BRT38AY, CRM33EB, CRM33ER, CRM34GB, CRM37EB, "],
+    "model": [
+      "BRM38EB, BRM39EBANA, BRM39EBBNA, BRM39EKANA, BRM39EKBNA, BRM39ERANA, BRM39ERBNA, BRM39ZBANA, BRM39ZBBNA, BRM42EBANA, BRM42EBBNA, BRM42EKANA, BRM42EKBNA, BRT38AE, BRT38AV, BRT38AY, CRM33EB, CRM33ER, CRM34GB, CRM37EB, "
+    ],
     "version": "",
     "quantaty": 0,
     "title": "isopor geladeira, isopor congelador, isopor evaporador, capa geladeira, capa evaporador, capa traseira"
@@ -3976,7 +3978,7 @@
   },
   {
     "name": "Tubulação de cobre 3/16 (metro)",
-    "code": "100211983",
+    "code": "000000000001002967",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -3996,7 +3998,7 @@
   },
   {
     "name": "Tubulação de cobre 5/16 (metro)",
-    "code": "100281776",
+    "code": "1002956",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -4006,7 +4008,7 @@
   },
   {
     "name": "Tubulação de cobre 3/8 (metro)",
-    "code": "100211986",
+    "code": "1002973",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -4016,7 +4018,7 @@
   },
   {
     "name": "Tubulação de cobre 1/2 (metro)",
-    "code": "100260708",
+    "code": "100232675",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -4026,7 +4028,7 @@
   },
   {
     "name": "Tubulação de cobre 5/8 (metro)",
-    "code": "100213254",
+    "code": "000000000001002959",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -4036,7 +4038,7 @@
   },
   {
     "name": "Tubulação de cobre 3/4 (metro)",
-    "code": "109629",
+    "code": "100232677",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -4046,7 +4048,7 @@
   },
   {
     "name": "Tubo esponjoso de 1/4",
-    "code": "111187",
+    "code": "120551",
     "brand": "Vix",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "2 metros",
@@ -4086,7 +4088,7 @@
   },
   {
     "name": "Tubo esponjoso de 3/4",
-    "code": "111343",
+    "code": "111342",
     "brand": "Dugold",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "2 metros",
@@ -4106,7 +4108,7 @@
   },
   {
     "name": "Suporte de 7000 a 12000 Btus",
-    "code": "102351",
+    "code": "1014792",
     "brand": "",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "7000 a 12000 Btus",
@@ -4116,7 +4118,7 @@
   },
   {
     "name": "Suporte de 12000 a 24000 Btus",
-    "code": "120580",
+    "code": "1014769",
     "brand": "",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "12000 a 24000 Btus",
@@ -4126,7 +4128,7 @@
   },
   {
     "name": "Suporte de 30000 a 36000 Btus",
-    "code": "100477",
+    "code": "121299",
     "brand": "",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "30000 a 36000 Btus",
@@ -4136,7 +4138,7 @@
   },
   {
     "name": "Fita PVC 10m",
-    "code": "11639",
+    "code": "100261818",
     "brand": "Dugold",
     "subject": "Instalação, Instalaçao, Instalacao, Split, condicionador de ar, ar condicionado",
     "model": "10 metros",
@@ -4146,7 +4148,7 @@
   },
   {
     "name": "Fita PVC 10m",
-    "code": "111553",
+    "code": "1115531004865",
     "brand": "Vix",
     "subject": "Instalação, Instalaçao, Instalacao, Split, condicionador de ar, ar condicionado",
     "model": "10 metros",
@@ -4156,7 +4158,7 @@
   },
   {
     "name": "Fita Alumínio",
-    "code": "117068",
+    "code": "100275643",
     "brand": "Dugold",
     "subject": "Instalação, Instalaçao, Instalacao, Split, condicionador de ar, ar condicionado",
     "model": "45 metros",
@@ -4226,7 +4228,7 @@
   },
   {
     "name": "Cabo PP 3x1,5mm",
-    "code": "CCP009AM",
+    "code": "CPP3X1,5P100",
     "brand": "Spazio",
     "subject": "Instalação, Instalaçao, Instalacao, Split, condicionador de ar, ar condicionado",
     "model": "Cabo flexível",
@@ -4236,7 +4238,7 @@
   },
   {
     "name": "Cabo PP 3x2,5mm",
-    "code": "CCP0010AM",
+    "code": "100254048",
     "brand": "Spazio",
     "subject": "Instalação, Instalaçao, Instalacao, Split, condicionador de ar, ar condicionado",
     "model": "Cabo flexível",
@@ -4246,7 +4248,7 @@
   },
   {
     "name": "Cabo PP 4x1,5mm",
-    "code": "CCP0014AM",
+    "code": "CPP4X1,5P",
     "brand": "Spazio",
     "subject": "Instalação, Instalaçao, Instalacao, Split, condicionador de ar, ar condicionado",
     "model": "Cabo flexível",
@@ -4835,8 +4837,8 @@
     "title": "reoperação, reoperaçao, reoperacao, solda aluminio"
   },
   {
-    "name": "Kit Placa Universal Dugold",
-    "code": "193250",
+    "name": "Kit Placa Universal Hulter",
+    "code": "100262889",
     "brand": "Dugold",
     "subject": "multimarcas, split, condicionador de ar, ar condicionado",
     "model": "",
