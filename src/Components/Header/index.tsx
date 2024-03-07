@@ -42,6 +42,7 @@ export function Header() {
       )
     })
     updateProductsList(filteredList)
+    window.scrollTo(0, 0)
   }
 
   return (

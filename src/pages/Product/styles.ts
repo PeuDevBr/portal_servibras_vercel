@@ -70,8 +70,8 @@ export const ProductContainer = styled.div`
   }
 
   .ImageContainer {
-    height: 450px;
-    width: 500px;
+    height: 400px;
+    width: 450px;
 
     display: flex;
     align-items: center;
