@@ -520,16 +520,6 @@
     "title": "PLACA DISPLAY"
   },
   {
-    "name": "PLACA INTERFACE",
-    "code": "W11378520",
-    "brand": "Brastemp/Consul",
-    "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
-    "model": "CWH14ABAS1, CWH14ABBS1, CWH14ABBS2, CWH14ABANA, CWH14ABBNA, CWH14ABAS2, CWH15ABBS1, CWH15ABBNA, CWH15ABAS1, CWH15ABANA, CWH15ABAS2, CWH15ABBS3",
-    "version": "",
-    "quantaty": 0,
-    "title": "PLACA DISPLAY"
-  },
-  {
     "name": "CONJUNTO INTERFACE DOTYK TM NOVO SW",
     "code": "W11228626",
     "brand": "Brastemp/Consul",
@@ -5258,6 +5248,16 @@
     "title": "potencia, eletronico, potência"
   },
   {
+    "name": "Placa Eletrônica SUELI TC LEC14",
+    "code": "A13611029",
+    "brand": "Electrolux",
+    "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
+    "model": "LEC14",
+    "version": "",
+    "quantaty": 0,
+    "title": "potencia, eletronico, potência"
+  },
+  {
     "name": "Placa Eletrônica LAC12",
     "code": "A99035119",
     "brand": "Electrolux",
@@ -5652,7 +5652,7 @@
     "code": "A99811702",
     "brand": "Electrolux",
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
-    "model": "LED17, LES11, LES15",
+    "model": "LED17, LES11, LES15, LEC14",
     "version": "",
     "quantaty": 0,
     "title": "bomba drenagem, bomba de drenagem"
@@ -5662,7 +5662,7 @@
     "code": "A99084602",
     "brand": "Electrolux",
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
-    "model": "LAC13, LAC11, LAC16, LAC12, LED14, LED17, LPR13",
+    "model": "LAC13, LAC11, LAC16, LAC12, LED14, LED17, LPR13, LEC14",
     "version": "",
     "quantaty": 0,
     "title": "valvula dupla, valvula de entrada, válvula de entrada, valvula entrada, válvula entrada"
@@ -5912,7 +5912,7 @@
     "code": "64500662",
     "brand": "Electrolux",
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
-    "model": "LA15F, LAC12, LAC13, LAC16, LAI17, LAP16, LBU15, LBU16, LDD16, LEC12, LM13Q, LP12Q, LPE16, LPR16, LPR17, LST12, LSW12, LSW15, LT12B, LT12F, LT12Q, LT13B, LT15F, LTA13, LTA15, LTC15, LTD13, LTD15, LTD16, LTE12, LTM15, LTM16, LTP12, LTP15, LTP16, LTR15, LED14, LED17",
+    "model": "LA15F, LAC12, LAC13, LAC16, LAI17, LAP16, LBU15, LBU16, LDD16, LEC12, LM13Q, LP12Q, LPE16, LPR16, LPR17, LST12, LSW12, LSW15, LT12B, LT12F, LT12Q, LT13B, LT15F, LTA13, LTA15, LTC15, LTD13, LTD15, LTD16, LTE12, LTM15, LTM16, LTP12, LTP15, LTP16, LTR15, LED14, LED17, LEC14",
     "version": "",
     "quantaty": 0,
     "title": "atuador freio"
@@ -6068,11 +6068,21 @@
     "title": "placa potencia, controle eletrônico, controle eletronico"
   },
   {
-    "name": "Placa Potência",
-    "code": "70202437",
+    "name": "PLACA POTENCIA ERF1500 SCO LOW SC",
+    "code": "A02021013",
     "brand": "Electrolux",
     "subject": "geladeira, refrigerador",
-    "model": "DF80, DF80X, ",
+    "model": "DF80-924261609-00, DF80-924261665-00, DF80-924261925-00, DF80X, ",
+    "version": "",
+    "quantaty": 0,
+    "title": "placa potencia, controle eletrônico, controle eletronico"
+  },
+  {
+    "name": "PLACA POTENCIA ERF1500 ICO LOW SC",
+    "code": "A02021014",
+    "brand": "Electrolux",
+    "subject": "geladeira, refrigerador",
+    "model": "DF80-924261742-00, DF80-924261925-01",
     "version": "",
     "quantaty": 0,
     "title": "placa potencia, controle eletrônico, controle eletronico"
@@ -6127,7 +6137,7 @@
     "quantaty": 0,
     "title": "placa potencia, controle eletrônico, controle eletronico"
   },
-  
+
   {
     "name": "PLACA POTENCIA ERF2510UD BELLA 4 IM8",
     "code": "A96969515",
@@ -6229,11 +6239,11 @@
     "title": "painel eletrônico, painel eletronico, placa display"
   },
   {
-    "name": "Placa Potência DF80/80X",
-    "code": "64800637",
+    "name": "Placa Potência SD (64800637)",
+    "code": "A10344301",
     "brand": "Electrolux",
     "subject": "geladeira, refrigerador",
-    "model": "DF80, DF80X, DFW51, DW51X, DWN51, DWX51, ",
+    "model": "DF80-925026692-00, DF80-925026692-99, DF80-924261143-99, DF80-924261143-00, DF80X, DFW51, DW51X, DWN51, DWX51, ",
     "version": "",
     "quantaty": 0,
     "title": "placa potencia, controle eletrônico, controle eletronico"
@@ -6690,10 +6700,10 @@
   },
   {
     "name": "Rede Sensor Ventilador 6 Vias 220V",
-    "code": "70201412",
+    "code": "A99174601",
     "brand": "Electrolux",
     "subject": "geladeira, refrigerador",
-    "model": "DF80, DF80X, DFI80, DI80X, DT80X, ",
+    "model": "DF80-925026692-00, DF80X, DFI80, DI80X, DT80X, ",
     "version": "",
     "quantaty": 0,
     "title": "motor ventilador"
@@ -6924,7 +6934,7 @@
     "brand": "Electrolux",
     "subject": "lavadora, máquina de lavar, maquina de lavar",
     "model": "",
-    "version": "LED14, LES09, LES13",
+    "version": "LED14, LES09, LES13, LEC14",
     "quantaty": 0,
     "title": "mangueira drenagem, mangueira saída, mangueira de saída, mangueira saida, mangueira de saida"
   },
@@ -6963,7 +6973,7 @@
     "code": "70201828",
     "brand": "Electrolux",
     "subject": "lavadora, máquina de lavar, maquina de lavar",
-    "model": "LA15F, LAC12, LAC13, LBU15, LBU16, LDD16, LEC12, LES13, LM13Q, LP12Q, LPR13, LPR14, LT12B, LT12F, LT12Q, LT13B, LT15F, LTA13, LTA15, LTC15, LTD13, LTD15, LTD16, LTE12, LTM15, LTM16, LTP12, LTP15, LTP16, LTR15, LWI13, LED14",
+    "model": "LA15F, LAC12, LAC13, LBU15, LBU16, LDD16, LEC12, LES13, LM13Q, LP12Q, LPR13, LPR14, LT12B, LT12F, LT12Q, LT13B, LT15F, LTA13, LTA15, LTC15, LTD13, LTD15, LTD16, LTE12, LTM15, LTM16, LTP12, LTP15, LTP16, LTR15, LWI13, LED14, LEC14",
     "version": "",
     "quantaty": 0,
     "title": "mecanismo, mecanica, transmissao, mecânica"
@@ -6973,7 +6983,7 @@
     "code": "A99806501",
     "brand": "Electrolux",
     "subject": "lavadora, máquina de lavar, maquina de lavar",
-    "model": "LA15F, LAC12, LAC13, LBU15, LBU16, LDD16, LEC12, LES13, LM13Q, LP12Q, LPR13, LPR14, LT12B, LT12F, LT12Q, LT13B, LT15F, LTA13, LTA15, LTC15, LTD13, LTD15, LTD16, LTE12, LTM15, LTM16, LTP12, LTP15, LTP16, LTR15, LWI13, LED14, LED17, LES15",
+    "model": "LA15F, LAC12, LAC13, LBU15, LBU16, LDD16, LEC12, LES13, LM13Q, LP12Q, LPR13, LPR14, LT12B, LT12F, LT12Q, LT13B, LT15F, LTA13, LTA15, LTC15, LTD13, LTD15, LTD16, LTE12, LTM15, LTM16, LTP12, LTP15, LTP16, LTR15, LWI13, LED14, LED17, LES15, LEC14",
     "version": "",
     "quantaty": 0,
     "title": "mecanismo, mecanica, transmissao, mecânica, embreagem, 70201828"
@@ -7316,7 +7326,7 @@
     "model": "DF80X, DI80X, DT80X, DWX51, ",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Suporte do Puxador",
@@ -7326,7 +7336,7 @@
     "model": "DB52, DB53, IB52, IB53, TF51, TF52, ",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Suporte do Puxador",
@@ -7336,7 +7346,7 @@
     "model": "",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Auto Close Door",
@@ -7396,7 +7406,7 @@
     "model": "DF80, DF82, DFI80, DFN52, DFW51, DWN51, ",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Suporte do Puxador",
@@ -7406,7 +7416,7 @@
     "model": "DF36A, DF36X, DF42, DF42X, DF44, DF44S, DF51, DF51X, DF52, DF52X, DF53, DF53X, DF54, DF54X, DF80, DF80X, DF82, DF82X, DFI80, DFN42, DFN52, DFW51, DFW52, DFX42, DI80X, DT80X, DW42X, DW44S, DW51X, DW52X, DW54X, DWN51, DWX51, IF51, IF51X, IF53, IF53X, TF42, TF42S, TW42S, ",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Emblema Electrolux",
@@ -7446,7 +7456,7 @@
     "model": "",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Suporte do Puxador",
@@ -7456,7 +7466,7 @@
     "model": "",
     "version": "",
     "quantaty": 0,
-    "title": ""
+    "title": "SUPORTE PUXADOR"
   },
   {
     "name": "Botão do Forno",
@@ -7793,7 +7803,7 @@
     "code": "64502725",
     "brand": "Electrolux",
     "subject": "lavadora, máquina de lavar, maquina de lavar",
-    "model": "LED14, LED17",
+    "model": "LED14, LED17, LEC14",
     "version": "",
     "quantaty": 0,
     "title": "pressostato linear, sensor de pressao, sensor de pressão, sensor pressao"
@@ -7903,7 +7913,7 @@
     "code": "A99017601",
     "brand": "Electrolux",
     "subject": "lavadora, máquina de lavar, maquina de lavar",
-    "model": "LED14",
+    "model": "LED14, LEC14",
     "version": "",
     "quantaty": 0,
     "title": ""

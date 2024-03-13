@@ -33,7 +33,6 @@ export function Product() {
             alt="Imagem não encontrada"
             width={400}
             height={400}
-            className="image"
           />
         ) : (
           <img
