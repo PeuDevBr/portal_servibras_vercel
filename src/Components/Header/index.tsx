@@ -33,16 +33,18 @@ export function Header() {
   function handleCreateNewList(data: NewListFormData) {
     const searchText = data.textInput.toLowerCase().trim()
 
-    const filteredList = list.filter((product) => {
-      // Aqui você pode ajustar as condições de acordo com sua necessidade
-      return Object.values(product).some(
-        (proprietyValue) =>
-          typeof proprietyValue === "string" &&
-          proprietyValue.toLowerCase().includes(searchText)
-      )
-    })
-    updateProductsList(filteredList)
-    window.scrollTo(0, 0)
+    if (searchText !== "") {
+      const filteredList = list.filter((product) => {
+        // Aqui você pode ajustar as condições de acordo com sua necessidade
+        return Object.values(product).some(
+          (proprietyValue) =>
+            typeof proprietyValue === "string" &&
+            proprietyValue.toLowerCase().includes(searchText)
+        )
+      })
+      updateProductsList(filteredList)
+      window.scrollTo(0, 0)
+    }
   }
 
   return (
