@@ -18,12 +18,17 @@ export interface ProductProps {
   title: string
 }
 
-export const ListContext = createContext({} as any)
+interface ListContextType {
+  productList: ProductProps[]
+  updateProductsList: (newList: ProductProps[]) => void
+}
+
+export const ListContext = createContext({} as ListContextType)
 
 export function ListContextProvider({ children }: ListContextProviderProps) {
   const [productList, setProductList] = useState<ProductProps[]>(initialList)
 
-  function updateProductsList(newList: any) {
+  function updateProductsList(newList: ProductProps[]) {
     setProductList(newList)
   }
   return (

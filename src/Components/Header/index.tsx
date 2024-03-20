@@ -1,4 +1,4 @@
-import list from "../../../products.json"
+import productList from "../../../products.json"
 import { useForm } from "react-hook-form"
 import { NavLink } from "react-router-dom"
 
@@ -34,7 +34,7 @@ export function Header() {
     const searchText = data.textInput.toLowerCase().trim()
 
     if (searchText !== "") {
-      const filteredList = list.filter((product) => {
+      const filteredList = productList.filter((product) => {
         // Aqui você pode ajustar as condições de acordo com sua necessidade
         return Object.values(product).some(
           (proprietyValue) =>
