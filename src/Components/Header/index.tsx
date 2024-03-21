@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 import { useContext } from "react"
 import { ListContext } from "../../context/ListContext"
 
-import { useLocation } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 
 import {
   CartContainer,
@@ -29,6 +29,7 @@ export function Header() {
   })
   const { updateProductsList } = useContext(ListContext)
   const location = useLocation()
+  const navigation = useNavigate()
 
   function handleCreateNewList(data: NewListFormData) {
     const searchText = data.textInput.toLowerCase().trim()
@@ -52,14 +53,31 @@ export function Header() {
       <HeaderContent>
         <LogoContainer>
           {location.pathname !== "/" && (
-            <NavLink to="/" className="linkToHome">
+            <div className="linkToHome" onClick={() => navigation(-1)}>
               <KeyReturn size={32} color="#e0e0e0" weight="thin" />
-            </NavLink>
+            </div>
           )}
           <span>Servibras</span>
         </LogoContainer>
 
-        {location.pathname === "/" && (
+        {location.pathname === "/catalog" && (
+          <FormContainer
+            autoComplete="off"
+            onSubmit={handleSubmit(handleCreateNewList)}
+          >
+            <input
+              id="searchInput"
+              type="text"
+              placeholder="Pesquisar"
+              {...register("textInput")}
+            />
+            <button type="submit">
+              <MagnifyingGlass size={22} color="#FFFFFF" />
+            </button>
+          </FormContainer>
+        )}
+
+        {location.pathname === "/list" && (
           <FormContainer
             autoComplete="off"
             onSubmit={handleSubmit(handleCreateNewList)}
