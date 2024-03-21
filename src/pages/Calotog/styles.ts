@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 99%;
   display: flex;
   justify-content: center;
+  color: ${(props) => props.theme["gray-900"]};
 
   span {
     color: red;
@@ -30,7 +31,7 @@ export const Container = styled.div`
   .productContent {
     width: 240px;
     height: 300px;
-    background: ${(props) => props.theme["gray-900"]};
+    background: ${(props) => props.theme.white};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +58,7 @@ export const Container = styled.div`
   .brand {
     font-size: 0.8rem;
     font-weight: 700;
-    color: ${(props) => props.theme["gray-100"]};
+    color: ${(props) => props.theme["gray-900"]};
   }
 
   section {

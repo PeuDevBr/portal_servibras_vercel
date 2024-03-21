@@ -48,13 +48,15 @@ export default function Catalog() {
                   <div className="brandContainer">
                     <span className="brand">{product.brand}</span>
                   </div>
-                  <img
-                    src={`/image/${product.code}.png`}
-                    width={120}
-                    height={120}
-                    className="image"
-                    alt={product.name}
-                  />
+                  <div className="imgContainer">
+                    <img
+                      src={`/image/${product.code}.png`}
+                      width={120}
+                      height={120}
+                      className="image"
+                      alt={product.name}
+                    />
+                  </div>
                   <h2 className="name">{product.name.toUpperCase()}</h2>
                   <h2 className="code">{product.code}</h2>
                   <section>
