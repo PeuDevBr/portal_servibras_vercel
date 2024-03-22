@@ -3999,7 +3999,7 @@
   },
   {
     "name": "Tubulação de cobre 1/4 (metro)",
-    "code": "1026555",
+    "code": "1002965",
     "brand": "Dugold - Eluma",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "Tubo flexível",
@@ -4079,7 +4079,7 @@
   },
   {
     "name": "Tubo esponjoso de 1/2",
-    "code": "000000000001015360",
+    "code": "1015360",
     "brand": "Vix",
     "subject": "Split, condicionador de ar, ar condicionado",
     "model": "2 metros",
@@ -4639,7 +4639,7 @@
   },
   {
     "name": "Controle Remoto Universal",
-    "code": "109506",
+    "code": "000000000001016722",
     "brand": "Vix",
     "subject": "multimarcas, split, condicionador de ar, ar condicionado",
     "model": "",
@@ -5430,7 +5430,7 @@
   },
   {
     "name": "Placa Eletrônica LT15F",
-    "code": "70201676",
+    "code": "A99035156",
     "brand": "Electrolux",
     "subject": "Máquina de Lavar, Lavadora, Maquina de lavar",
     "model": "LBULT15F15",
@@ -8507,7 +8507,7 @@
     "model": "",
     "version": "",
     "quantaty": 0,
-    "title": "filtro esmaltec"
+    "title": "filtro esmaltec, EGM30, ECG35B, BEBEDOURO, PURIFICADOR"
   },
   {
     "name": "Filtro Desumificador Geladeira 5g",
