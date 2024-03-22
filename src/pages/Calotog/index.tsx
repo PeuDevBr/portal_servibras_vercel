@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from "react"
 
 import { NavLink } from "react-router-dom"
-/* import Head from 'next/head' */
 import Cookies from "js-cookie"
-import { Container } from "./styles"
+import { Container, ImageContainer, ProductContainer, ProductContent } from "./styles"
 import { ListContext } from "../../context/ListContext"
+import { Camera, CheckCircle } from "phosphor-react"
 
 export default function Catalog() {
   const { productList } = useContext(ListContext)
@@ -43,38 +43,35 @@ export default function Catalog() {
         <div className="gridContainer">
           {productList.map((product) => {
             return (
-              <div key={product.code} className="productContainer">
-                <div className="productContent">
-                  <div className="brandContainer">
-                    <span className="brand">{product.brand}</span>
+              <ProductContainer>
+                <ImageContainer>
+                  <img src={`/image/${product.code}.png`} alt="" />
+                </ImageContainer>
+                <ProductContent>
+                  <div>
+                    <h3>{product.code}</h3>
                   </div>
-                  <div className="imgContainer">
-                    <img
-                      src={`/image/${product.code}.png`}
-                      width={120}
-                      height={120}
-                      className="image"
-                      alt={product.name}
-                    />
+
+                  <div className="descriptionContainer">
+                    <span>{product.name}</span>
                   </div>
-                  <h2 className="name">{product.name.toUpperCase()}</h2>
-                  <h2 className="code">{product.code}</h2>
-                  <section>
-                    <button className="productButton" id="add">
-                      ADICIONAR
-                    </button>
-                    <NavLink to={`/product/${product.code} `}>
-                      <button
-                        className="productButton"
-                        id="verify"
-                        onClick={() => handleSetScrollPosition()}
-                      >
-                        VERIFICAR
+
+                  <div className="buttonContentContainer">
+                    <span>{product.brand}</span>
+
+                    <div className="buttonContent">
+                      <button>
+                        <CheckCircle size={22} weight="fill" />
                       </button>
-                    </NavLink>
-                  </section>
-                </div>
-              </div>
+                      <NavLink to={`/product/${product.code} `}>
+                        <button onClick={() => handleSetScrollPosition()}>
+                          <Camera size={22} weight="fill" />
+                        </button>
+                      </NavLink>
+                    </div>
+                  </div>
+                </ProductContent>
+              </ProductContainer>
             )
           })}
         </div>

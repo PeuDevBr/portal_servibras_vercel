@@ -4,101 +4,86 @@ export const Container = styled.div`
   width: 99%;
   display: flex;
   justify-content: center;
-  color: ${(props) => props.theme["gray-900"]};
-
-  span {
-    color: red;
-    font: 2rem;
-    padding: 0.5rem;
-  }
 
   .gridContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     width: 99vw;
     max-width: 1440px;
+    gap: 2rem;
 
-    justify-content: center;
   }
+`
 
-  .productContainer {
-    height: 330px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+export const ProductContainer = styled.div`
+  display: flex;
+  background-color: ${(props) => props.theme["gray-600"]};
+  color: ${(props) => props.theme["gray-200"]};
+  height: 160px;
+  width: 440px;
+
+  border-radius: 8px;
+`
+export const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 160px;
+  img {
+    height: 140px;
+    width: 140px;
+
+    border-radius: 4px;
+    background-color: ${(props) => props.theme.white};
   }
+`
 
-  .productContent {
-    width: 240px;
-    height: 300px;
-    background: ${(props) => props.theme.white};
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid 1px ${(props) => props.theme["gray-300"]};
-    border-radius: 0.5rem;
+export const ProductContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem;
+
+  .descriptionContainer {
+    min-height: 3rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.8rem;
+    border-top: 1px solid ${(props) => props.theme["gray-300"]};
+    border-bottom: 1px solid ${(props) => props.theme["gray-300"]};
   }
 
-  .code {
-    font-size: 1.2rem;
-    margin-top: -0.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .name {
-    font-size: 1rem;
-    padding: 0.2rem;
-    text-align: center;
-    min-height: 60px;
-  }
-
-  .brand {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: ${(props) => props.theme["gray-900"]};
-  }
-
-  section {
+  .buttonContentContainer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .buttonContent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     gap: 0.5rem;
-  }
 
-  .productButton {
-    border: none;
-    height: 1.8rem;
-    width: 6rem;
-    border-radius: 0.3rem;
-
-    font-size: 0.85rem;
-    font-weight: 700;
-  }
-
-  #add {
-    background: #00b945;
-    color: #fff;
-
-    &:hover {
-      color: #fff;
-      background: #00792d;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 38px;
+      height:24px;
+      border-radius: 4px;
+      background-color: ${(props) => props.theme["gray-100"]};
       cursor: pointer;
     }
   }
+`
 
-  #verify {
-    background: #00a5b9;
-    color: #fff;
-
-    &:hover {
-      color: #fff;
-      background: #006a77;
-      cursor: pointer;
-    }
-  }
-
-  @media all and (max-width: 510px) {
+  /* @media all and (max-width: 510px) {
     .gridContainer {
       grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     }
@@ -178,4 +163,4 @@ export const Container = styled.div`
       }
     }
   }
-`
+` */
