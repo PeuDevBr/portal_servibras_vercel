@@ -37,15 +37,39 @@ export default function Catalog() {
     Cookies.set("scrollPositionNumber", scrollPosition)
   }
 
+  const [imageLoadError, setImageLoadError] = useState<{
+    [key: string]: boolean
+  }>({})
+
+  // Função para lidar com erros de carregamento de imagem
+  const handleImageError = (codigo: string) => {
+    setImageLoadError((prevState) => ({
+      ...prevState,
+      [codigo]: true,
+    }))
+  }
+
   return (
     <>
       <Container>
         <div className="gridContainer">
           {productList.map((product) => {
             return (
-              <ProductContainer>
+              <ProductContainer key={product.code}>
                 <ImageContainer>
-                  <img src={`/image/${product.code}.png`} alt="" />
+                  {imageLoadError[product.code] ? (
+                    <img
+                      src="/image/not_found.png" // Caminho para a imagem de 404
+                      alt="Imagem não encontrada"
+                      width={400}
+                      height={400}
+                    />
+                  ) : (
+                    <img
+                      src={`/image/${product.code}.png`}
+                      onError={() => handleImageError(product.code)}
+                    />
+                  )}
                 </ImageContainer>
                 <ProductContent>
                   <div>

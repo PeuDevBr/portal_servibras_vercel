@@ -4,15 +4,23 @@ export const Container = styled.div`
   width: 99%;
   display: flex;
   justify-content: center;
+  margin: 0.5rem;
 
   .gridContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     width: 99vw;
     max-width: 1440px;
-    gap: 2rem;
-
+    gap: 1.5rem 1rem;
   }
+
+  @media all and (max-width: 1200px) {
+    .gridContainer {
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      margin-left: 8rem;
+    }
+  }
+
 `
 
 export const ProductContainer = styled.div`
@@ -20,8 +28,7 @@ export const ProductContainer = styled.div`
   background-color: ${(props) => props.theme["gray-600"]};
   color: ${(props) => props.theme["gray-200"]};
   height: 160px;
-  width: 440px;
-
+  width: 420px;
   border-radius: 8px;
 `
 export const ImageContainer = styled.div`
@@ -29,10 +36,10 @@ export const ImageContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  width: 160px;
   img {
     height: 140px;
     width: 140px;
+    margin-left: 0.7rem;
 
     border-radius: 4px;
     background-color: ${(props) => props.theme.white};
@@ -75,9 +82,10 @@ export const ProductContent = styled.div`
       align-items: center;
       justify-content: center;
       min-width: 38px;
-      height:24px;
+      height: 24px;
       border-radius: 4px;
       background-color: ${(props) => props.theme["gray-100"]};
+      border: none;
       cursor: pointer;
     }
   }
